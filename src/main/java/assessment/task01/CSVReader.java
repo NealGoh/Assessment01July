@@ -41,12 +41,12 @@ public class CSVReader {
               }
               System.out.println();
               
-              List<String> header = new ArrayList<>();
+              List<String> header = new ArrayList<>(); //creating an array list for the header
               header.add(br.readLine());
-              List<String> body = new ArrayList<>();
+              List<String> body = new ArrayList<>(); //creating an array list for the rest of the body
               body.add(br.readLine());
               
-              Map<String, String> recepients = new HashMap<String, String>();
+              Map<String, String> recepients = new HashMap<String, String>(); //Adding the body and header into the hashmap
               recepients.put(header, body);
            }
            br.close();
