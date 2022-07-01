@@ -1,6 +1,10 @@
-package assessment.task01;
+package assessment.task02;
 
-public class App 
+/**
+ * Hello world!
+ *
+ */
+public class Task02 
 {
     public static void main( String[] args )
     {
